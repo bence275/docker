@@ -1,0 +1,28 @@
+root@ubuntu:~# cd kozos/
+root@ubuntu:~/kozos# ls
+
+root@ubuntu:~/kozos# docker ps
+
+root@ubuntu:~/kozos# docker ps -a
+                      
+root@ubuntu:~/kozos# docker container prune 
+
+root@ubuntu:~/kozos# docker images
+
+root@ubuntu:~/kozos# docker images webserver-image
+
+root@ubuntu:~/kozos# docker images webserver-image:v1
+
+root@ubuntu:~/kozos# docker build -t ng.
+
+root@ubuntu:~/kozos# docker build -t ng .
+
+
+root@ubuntu:~/kozos# docker run -d -p 80:80 --name krisz ng
+
+nmap 127.0.0.1
+
+
+
+root@ubuntu:~/kozos# ifconfig
+
